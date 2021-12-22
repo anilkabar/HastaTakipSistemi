@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "e4e5955c-d9ec-49af-a6eb-d130ab39030b"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -27,9 +30,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/dist/css/style.min.css",
+              "src/assets/fontawesome/css/all.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/assets/node_modules/jquery/dist/jquery.min.js",
+              "src/assets/assets/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "src/assets/dist/js/sidebarmenu.js",
+              "src/assets/dist/js/perfect-scrollbar.jquery.min.js",
+              "src/assets/dist/js/custom.min.js"
+              
+            ]
           },
           "configurations": {
             "production": {
